@@ -10,7 +10,8 @@ import Foundation
 import RealmSwift
 class Interest: Object {
     
-    dynamic var interests = ""
+    dynamic var interest = ""
     dynamic var image:NSData? = nil
+    
     
 }
